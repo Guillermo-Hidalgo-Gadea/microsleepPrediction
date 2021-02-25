@@ -7,11 +7,11 @@ https://doi.org/10.1080/00140139.2021.1882707
 This Repository contains the source code for the complete R analysis conducted. 
 If you have any questions please contact the first author.
 
-# Appendix B
+## Appendix B
 
 Following libraries are used for this analysis (see R script):
--Attali, D., & Baker, C. (2019). ggExtra: Add Marginal Histograms to 'ggplot2', and More 'ggplot2' Enhancements. R package version 0.9. https://CRAN.R- project.org/package=ggExtra
--Behrendt, S. (2014). lm.beta: Add Standardized Regression Coefficients to lm-Objects. R package version 1.5-1. https://CRAN.R-project.org/package=lm.beta
+--Attali, D., & Baker, C. (2019). ggExtra: Add Marginal Histograms to 'ggplot2', and More 'ggplot2' Enhancements. R package version 0.9. https://CRAN.R- project.org/package=ggExtra
+--Behrendt, S. (2014). lm.beta: Add Standardized Regression Coefficients to lm-Objects. R package version 1.5-1. https://CRAN.R-project.org/package=lm.beta
 Fox, J., & Weisberg, S. (2019). An {R} Companion to Applied Regression, Third Edition. Thousand Oaks CA: Sage. URL: https://socialsciences.mcmaster.ca/jfox/Books/Companion/
     Gordon, M., & Lumley, T. (2019). forestplot: Advanced Forest Plot Using 'grid' Graphics. R package version 1.9. https://CRAN.R-project.org/package=forestplot
 Kassambara, A. (2020). ggpubr: 'ggplot2' Based Publication Ready Plots. R package version 0.2.5. https://CRAN.R-project.org/package=ggpubr
