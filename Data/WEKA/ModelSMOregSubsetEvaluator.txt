@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     FeatureTable-weka.filters.unsupervised.attribute.Remove-R1-3,5-17,19-20,23-39,41-58,60-62,64-79,82-86,90-92,94,96-97,100
+Instances:    33
+Attributes:   18
+              HrvLf
+              meandECG
+              meand2EYELIDOPENING
+              meandFILTEREDPUPILDIAMETER
+              mindFILTEREDPUPILDIAMETER
+              skwPSDd2FILTEREDPUPILDIAMETER
+              kurtPSDd2EYELIDOPENING
+              prct5dEYELIDOPENING
+              prct5d2EYELIDOPENING
+              prct25d2EYELIDOPENING
+              prct25dFILTEREDPUPILDIAMETER
+              prct25d2FILTEREDPUPILDIAMETER
+              prct75d2EYELIDOPENING
+              prct75d2FILTEREDPUPILDIAMETER
+              prct95dEYELIDOPENING
+              prct95d2EYELIDOPENING
+              prct95d2FILTEREDPUPILDIAMETER
+              Microsleep
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.3751 * (normalized) HrvLf
+ +       0.1413 * (normalized) meandECG
+ -       0.3656 * (normalized) meand2EYELIDOPENING
+ +       0.0511 * (normalized) meandFILTEREDPUPILDIAMETER
+ -       0.0469 * (normalized) mindFILTEREDPUPILDIAMETER
+ +       0.251  * (normalized) skwPSDd2FILTEREDPUPILDIAMETER
+ +       0.6254 * (normalized) kurtPSDd2EYELIDOPENING
+ +       0.0192 * (normalized) prct5dEYELIDOPENING
+ -       0.2622 * (normalized) prct5d2EYELIDOPENING
+ +       0.0258 * (normalized) prct25d2EYELIDOPENING
+ +       0.3131 * (normalized) prct25dFILTEREDPUPILDIAMETER
+ -       0.295  * (normalized) prct25d2FILTEREDPUPILDIAMETER
+ +       0.2685 * (normalized) prct75d2EYELIDOPENING
+ +       0.0979 * (normalized) prct75d2FILTEREDPUPILDIAMETER
+ +       0.0216 * (normalized) prct95dEYELIDOPENING
+ +       0.2216 * (normalized) prct95d2EYELIDOPENING
+ +       0.2907 * (normalized) prct95d2FILTEREDPUPILDIAMETER
+ -       0.007 
+
+
+
+Number of kernel evaluations: 561 (98.573% cached)
+
+Time taken to build model: 0.02 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5816
+Mean absolute error                      0.3696
+Root mean squared error                  0.5007
+Relative absolute error                 82.0124 %
+Root relative squared error            104.5581 %
+Total Number of Instances               33     
+

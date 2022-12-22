@@ -1,0 +1,49 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     FeatureTable
+Instances:    33
+Attributes:   102
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 1748
+	Merit of best subset found:    0.793
+
+Attribute Subset Evaluator (supervised, Class (numeric): 102 Microsleep):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+	
+	Evaluates the worth of a subset of attributes by considering the individual predictive ability of each feature along with the degree 
+	of redundancy between them. Subsets of features that are highly correlated with the class while having low intercorrelation are preferred.
+	For more information see M. A. Hall (1998). Correlation-based Feature Subset Selection for Machine Learning. Hamilton, New Zealand.
+
+Selected attributes: 4,18,21,22,40,59,63,80,81,87,88,89,93,95,98,99,101 : 17
+                     HrvLf
+                     meandECG
+                     meand2EYELIDOPENING
+                     meandFILTEREDPUPILDIAMETER
+                     mindFILTEREDPUPILDIAMETER
+                     skwPSDd2FILTEREDPUPILDIAMETER
+                     kurtPSDd2EYELIDOPENING
+                     prct5dEYELIDOPENING
+                     prct5d2EYELIDOPENING
+                     prct25d2EYELIDOPENING
+                     prct25dFILTEREDPUPILDIAMETER
+                     prct25d2FILTEREDPUPILDIAMETER
+                     prct75d2EYELIDOPENING
+                     prct75d2FILTEREDPUPILDIAMETER
+                     prct95dEYELIDOPENING
+                     prct95d2EYELIDOPENING
+                     prct95d2FILTEREDPUPILDIAMETER
+

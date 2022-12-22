@@ -1,0 +1,138 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     FeatureTable
+Instances:    33
+Attributes:   102
+              [list of attributes omitted]
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+SMOreg implements the support vector machine for regression. The parameters can be learned using various algorithms. 
+The algorithm is selected by setting the RegOptimizer. The most popular algorithm (RegSMOImproved) is due to Shevade, 
+Keerthi et al and this is the default RegOptimizer. For more information see S.K. Shevade, S.S. Keerthi, C. Bhattacharyya, K.R.K. Murthy: 
+Improvements to the SMO Algorithm for SVM Regression. In: IEEE Transactions on Neural Networks, 1999 and A.J. Smola, B. Schoelkopf (1998). A tutorial on support vector regression.
+
+
+weights (not support vectors):
+ +       0.2569 * (normalized) meanECG
+ +       0.066  * (normalized) HR
+ +       0.0619 * (normalized) HrvHf
+ +       0.0978 * (normalized) HrvLf
+ -       0.0351 * (normalized) HrvLfHf
+ +       0.2812 * (normalized) HrvPnn50
+ +       0.0713 * (normalized) HrvRmssd
+ +       0.0716 * (normalized) HrvSd1
+ +       0.0224 * (normalized) HrvSd2
+ -       0.0317 * (normalized) HrvSd2Sd1
+ +       0.0362 * (normalized) HrvSdnn
+ +       0.0716 * (normalized) HrvSdsd
+ -       0.0244 * (normalized) meanEYELIDOPENING
+ +       0.0772 * (normalized) meanFILTEREDPUPILDIAMETER
+ +       0.0313 * (normalized) varECG
+ -       0.0024 * (normalized) varEYELIDOPENING
+ +       0.1752 * (normalized) varFILTEREDPUPILDIAMETER
+ +       0.0374 * (normalized) meandECG
+ -       0.0313 * (normalized) meand2ECG
+ +       0.3435 * (normalized) meandEYELIDOPENING
+ +       0.0167 * (normalized) meand2EYELIDOPENING
+ +       0.0002 * (normalized) meandFILTEREDPUPILDIAMETER
+ +       0.0131 * (normalized) meand2FILTEREDPUPILDIAMETER
+ +       0.2335 * (normalized) skwdECG
+ -       0.3563 * (normalized) skwd2ECG
+ -       0.1632 * (normalized) skwdEYELIDOPENING
+ -       0.0957 * (normalized) skwd2EYELIDOPENING
+ -       0.0047 * (normalized) skwdFILTEREDPUPILDIAMETER
+ -       0.1205 * (normalized) skwd2FILTEREDPUPILDIAMETER
+ +       0.0844 * (normalized) kurtdECG
+ +       0.1377 * (normalized) kurtd2ECG
+ -       0.138  * (normalized) kurtdEYELIDOPENING
+ -       0.1159 * (normalized) kurtd2EYELIDOPENING
+ -       0.2456 * (normalized) kurtdFILTEREDPUPILDIAMETER
+ -       0.2172 * (normalized) kurtd2FILTEREDPUPILDIAMETER
+ -       0.0526 * (normalized) mindECG
+ -       0.2421 * (normalized) mind2ECG
+ -       0.0353 * (normalized) mindEYELIDOPENING
+ -       0.138  * (normalized) mind2EYELIDOPENING
+ -       0.2351 * (normalized) mindFILTEREDPUPILDIAMETER
+ -       0.0672 * (normalized) mind2FILTEREDPUPILDIAMETER
+ +       0.1135 * (normalized) maxdECG
+ -       0.2103 * (normalized) maxd2ECG
+ -       0.0968 * (normalized) maxdEYELIDOPENING
+ +       0.0569 * (normalized) maxd2EYELIDOPENING
+ +       0.2013 * (normalized) maxdFILTEREDPUPILDIAMETER
+ -       0.0382 * (normalized) maxd2FILTEREDPUPILDIAMETER
+ +       0.083  * (normalized) meanPSDdECG
+ +       0.1539 * (normalized) meanPSDd2ECG
+ +       0.0405 * (normalized) meanPSDdEYELIDOPENING
+ -       0.0694 * (normalized) meanPSDd2EYELIDOPENING
+ -       0.0822 * (normalized) meanPSDdFILTEREDPUPILDIAMETER
+ -       0.0841 * (normalized) meanPSDd2FILTEREDPUPILDIAMETER
+ +       0.0413 * (normalized) skwPSDdECG
+ -       0.0509 * (normalized) skwPSDd2ECG
+ -       0.0856 * (normalized) skwPSDdEYELIDOPENING
+ +       0.4061 * (normalized) skwPSDd2EYELIDOPENING
+ -       0.024  * (normalized) skwPSDdFILTEREDPUPILDIAMETER
+ +       0.1017 * (normalized) skwPSDd2FILTEREDPUPILDIAMETER
+ +       0.2145 * (normalized) kurtPSDdECG
+ +       0.0163 * (normalized) kurtPSDd2ECG
+ -       0.0549 * (normalized) kurtPSDdEYELIDOPENING
+ +       0.3217 * (normalized) kurtPSDd2EYELIDOPENING
+ +       0.0371 * (normalized) kurtPSDdFILTEREDPUPILDIAMETER
+ +       0.2481 * (normalized) kurtPSDd2FILTEREDPUPILDIAMETER
+ +       0.226  * (normalized) minPSDdECG
+ -       0.1432 * (normalized) minPSDd2ECG
+ +       0      * (normalized) minPSDdEYELIDOPENING
+ +       0      * (normalized) minPSDd2EYELIDOPENING
+ -       0.1152 * (normalized) minPSDdFILTEREDPUPILDIAMETER
+ -       0.0278 * (normalized) minPSDd2FILTEREDPUPILDIAMETER
+ -       0.0349 * (normalized) maxPSDdECG
+ +       0.0624 * (normalized) maxPSDd2ECG
+ -       0.1629 * (normalized) maxPSDdEYELIDOPENING
+ -       0.0081 * (normalized) maxPSDd2EYELIDOPENING
+ -       0.0997 * (normalized) maxPSDdFILTEREDPUPILDIAMETER
+ -       0.0579 * (normalized) maxPSDd2FILTEREDPUPILDIAMETER
+ +       0.0332 * (normalized) prct5dECG
+ +       0.1152 * (normalized) prct5d2ECG
+ -       0.0838 * (normalized) prct5dEYELIDOPENING
+ -       0.0499 * (normalized) prct5d2EYELIDOPENING
+ -       0.0044 * (normalized) prct5dFILTEREDPUPILDIAMETER
+ -       0.0769 * (normalized) prct5d2FILTEREDPUPILDIAMETER
+ -       0.0358 * (normalized) prct25dECG
+ -       0.06   * (normalized) prct25d2ECG
+ +       0      * (normalized) prct25dEYELIDOPENING
+ -       0.001  * (normalized) prct25d2EYELIDOPENING
+ +       0.3705 * (normalized) prct25dFILTEREDPUPILDIAMETER
+ -       0.189  * (normalized) prct25d2FILTEREDPUPILDIAMETER
+ -       0.0927 * (normalized) prct75dECG
+ -       0.011  * (normalized) prct75d2ECG
+ +       0      * (normalized) prct75dEYELIDOPENING
+ +       0.0607 * (normalized) prct75d2EYELIDOPENING
+ -       0.0033 * (normalized) prct75dFILTEREDPUPILDIAMETER
+ +       0.1691 * (normalized) prct75d2FILTEREDPUPILDIAMETER
+ -       0.1081 * (normalized) prct95dECG
+ +       0.2508 * (normalized) prct95d2ECG
+ +       0.1065 * (normalized) prct95dEYELIDOPENING
+ +       0.0181 * (normalized) prct95d2EYELIDOPENING
+ +       0.0131 * (normalized) prct95dFILTEREDPUPILDIAMETER
+ +       0.1464 * (normalized) prct95d2FILTEREDPUPILDIAMETER
+ -       0.1496
+
+
+
+Number of kernel evaluations: 561 (99.38% cached)
+
+Time taken to build model: 0.07 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7148
+Mean absolute error                      0.2876
+Root mean squared error                  0.3738
+Relative absolute error                 63.8135 %
+Root relative squared error             78.0626 %
+Total Number of Instances               33     
+

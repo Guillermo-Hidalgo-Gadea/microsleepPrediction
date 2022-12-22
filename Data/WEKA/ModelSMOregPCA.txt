@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     FeatureTable-weka.filters.unsupervised.attribute.Remove-R20-101
+Instances:    33
+Attributes:   20
+              meanECG
+              HR
+              HrvHf
+              HrvLf
+              HrvLfHf
+              HrvPnn50
+              HrvRmssd
+              HrvSd1
+              HrvSd2
+              HrvSd2Sd1
+              HrvSdnn
+              HrvSdsd
+              meanEYELIDOPENING
+              meanFILTEREDPUPILDIAMETER
+              varECG
+              varEYELIDOPENING
+              varFILTEREDPUPILDIAMETER
+              meandECG
+              meand2ECG
+              Microsleep
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ -       0.046  * (normalized) meanECG
+ -       0.3317 * (normalized) HR
+ -       0.1804 * (normalized) HrvHf
+ +       0.1945 * (normalized) HrvLf
+ +       0.3447 * (normalized) HrvLfHf
+ +       0.4209 * (normalized) HrvPnn50
+ -       0.029  * (normalized) HrvRmssd
+ -       0.0279 * (normalized) HrvSd1
+ -       0.0695 * (normalized) HrvSd2
+ +       0.2136 * (normalized) HrvSd2Sd1
+ -       0.0387 * (normalized) HrvSdnn
+ -       0.0279 * (normalized) HrvSdsd
+ +       0.167  * (normalized) meanEYELIDOPENING
+ +       0.0171 * (normalized) meanFILTEREDPUPILDIAMETER
+ +       0.3258 * (normalized) varECG
+ -       0.5584 * (normalized) varEYELIDOPENING
+ +       1.2304 * (normalized) varFILTEREDPUPILDIAMETER
+ +       0.3523 * (normalized) meandECG
+ -       0.1916 * (normalized) meand2ECG
+ -       0.3969
+
+
+
+Number of kernel evaluations: 561 (98.26% cached)
+
+Time taken to build model: 0.01 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.3672
+Mean absolute error                      0.4055
+Root mean squared error                  0.5101
+Relative absolute error                 89.9712 %
+Root relative squared error            106.5375 %
+Total Number of Instances               33     
+
